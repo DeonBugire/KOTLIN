@@ -68,7 +68,6 @@ class ContactManager {
         }
     }
 
-    // Метод для обработки команд
     fun processCommand(command: CommandBase) {
         when (command) {
             is AddPhoneCommand -> {
@@ -127,7 +126,6 @@ class ContactManager {
         }
     }
 
-    // Метод для вывода справки
     private fun printHelp() {
         println(
             """
